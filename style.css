@@ -112,3 +112,53 @@ ul li span{
 ul li span:hover{
     background-color: rgb(185, 183, 183);
 }
+
+@media (max-width: 600px) {
+    .todo-app {
+        padding: 30px 20px 50px;
+        margin: 60px auto 20px;
+    }
+
+    .row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .todo-heading {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .todo-heading h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    ul li {
+        font-size: 16px;
+        padding-left: 45px;
+    }
+
+    ul li::before {
+        top: 12px;
+        left: 10px;
+    }
+
+    ul li span {
+        top: 8px;
+        right: 5px;
+    }
+}
