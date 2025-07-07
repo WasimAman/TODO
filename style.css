@@ -138,14 +138,18 @@ ul li span:hover{
     }
 
     .todo-heading {
-        flex-direction: column;
-        gap: 10px;
-    }
+        flex-wrap: nowrap;
+        justify-content: center;
+  }
 
-    .todo-heading h2 {
+  .todo-heading h2 {
         font-size: 20px;
-        text-align: center;
-    }
+  }
+
+  .todo-heading img {
+        width: 24px;
+        height: 24px;
+  }
 
     ul li {
         font-size: 16px;
